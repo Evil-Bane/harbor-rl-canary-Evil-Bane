@@ -1,0 +1,4 @@
+check1_cli: PASS (+0.20)
+check2_status: PASS (+0.30)
+check3_tz_dedup: PASS (+0.50)
+FINAL_REWARD=1.00

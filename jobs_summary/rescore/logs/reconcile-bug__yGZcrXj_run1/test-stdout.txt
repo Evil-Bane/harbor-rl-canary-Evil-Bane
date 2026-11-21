@@ -1,0 +1,4 @@
+check1_cli: PASS (+0.20)
+check2_status: PASS (+0.30)
+check3_tz_dedup: FAIL (+0.00) -> Check 3 mismatch: got={'total_valid_amount': 1044.8, 'valid_count': 3, 'failed_count': 4}, expected={'total_valid_amount': 694.88, 'valid_count': 2, 'failed_count': 5}
+FINAL_REWARD=0.50

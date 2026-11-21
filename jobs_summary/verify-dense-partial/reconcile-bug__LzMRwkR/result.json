@@ -1,0 +1,124 @@
+{
+    "schema_version": 1,
+    "id": "838ab156-e29b-4ce1-bddc-4d0fb9560c28",
+    "task_name": "Evil-Bane/reconcile-bug",
+    "trial_name": "reconcile-bug__LzMRwkR",
+    "trial_uri": "file:///mnt/c/Users/Administrator/Desktop/Arakoo/harbor-rl-canary-Evil-Bane/jobs/verify-dense-partial/reconcile-bug__LzMRwkR",
+    "task_id": {
+        "path": "tasks/reconcile-bug"
+    },
+    "source": null,
+    "task_checksum": "0e933e869282356b193d032ef0cebbbf8cbcc47c2cfba87afe97e8a923252839",
+    "config": {
+        "schema_version": 1,
+        "task": {
+            "path": "tasks/reconcile-bug",
+            "git_url": null,
+            "git_commit_id": null,
+            "name": null,
+            "ref": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": null
+        },
+        "trial_name": "reconcile-bug__LzMRwkR",
+        "trials_dir": "jobs/verify-dense-partial",
+        "install_only": false,
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "oracle",
+            "import_path": null,
+            "model_name": null,
+            "base_url": null,
+            "model_api_key_name": null,
+            "model_api_format": null,
+            "skip_model_parsing": false,
+            "n_concurrent": null,
+            "concurrency_group": null,
+            "skills": [],
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "resume_trajectory": false,
+            "load_trajectory": null,
+            "extra_allowed_hosts": [],
+            "kwargs": {},
+            "mcp_servers": []
+        },
+        "user_agent": null,
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "stream": false,
+            "cpu_enforcement_policy": "auto",
+            "memory_enforcement_policy": "auto",
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "override_tpu": null,
+            "mounts": null,
+            "extra_docker_compose": [],
+            "kwargs": {},
+            "extra_allowed_hosts": []
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "override_error_policy": {},
+        "artifacts": [],
+        "extra_instruction_paths": [],
+        "extra_instructions": [],
+        "job_id": "4f5f4aec-539f-4024-b650-3cc271607c31",
+        "source_trial": null
+    },
+    "agent_info": {
+        "name": "oracle",
+        "version": "1.0.0",
+        "model_info": null
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "model_usage": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.5
+        }
+    },
+    "verifier_environment_mode": "shared",
+    "exception_info": null,
+    "started_at": "2026-11-20T12:22:20.047293Z",
+    "finished_at": "2026-11-20T12:23:41.169054Z",
+    "environment_setup": {
+        "started_at": "2026-11-20T12:22:20.408883Z",
+        "finished_at": "2026-11-20T12:23:01.921776Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-11-20T12:23:01.921922Z",
+        "finished_at": "2026-11-20T12:23:01.922058Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-11-20T12:23:01.922277Z",
+        "finished_at": "2026-11-20T12:23:08.876482Z"
+    },
+    "verifier": {
+        "started_at": "2026-11-20T12:23:15.998189Z",
+        "finished_at": "2026-11-20T12:23:26.445612Z"
+    },
+    "step_results": null,
+    "reward_valid": true
+}
